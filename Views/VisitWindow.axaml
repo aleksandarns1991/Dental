@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Dental.Views.VisitWindow"
+        WindowStartupLocation="CenterScreen"
+        CanResize="false"
+        SizeToContent="WidthAndHeight"
+        Title="Visit"
+        Icon="/Assets/Icons/appointment.ico">
+  <Grid RowDefinitions="Auto,Auto,Auto,20,Auto" ColumnDefinitions="Auto,Auto" Margin="20">
+      <TextBlock Text="Select doctor:"/>
+      <ComboBox Name="comboDoctors" Grid.Column="1"/>
+
+      <TextBlock Text="Select patient:" Grid.Row="1"/>
+      <ComboBox Name="comboPatients" Grid.Row="1" Grid.Column="1"/>
+
+      <TextBlock Text="Scheduled for:" Grid.Row="2"/>
+      <CalendarDatePicker Name="calendarSchedule" Grid.Row="2" Grid.Column="1"/>
+
+      <Button Classes="save" Name="btnSave" Content="Save" Grid.Row="4" Grid.ColumnSpan="2"/>
+  </Grid>
+</Window>

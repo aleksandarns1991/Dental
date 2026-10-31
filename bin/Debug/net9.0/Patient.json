@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "35bf70c5-62b3-41d7-b1a3-443a5ec644c9",
+    "FirstName": "Aleksandar",
+    "LastName": "Popadić",
+    "Birthday": "1991-12-09T00:00:00",
+    "ImagePath": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Test\\512693432_10226593489880311_1687553276234511045_n.jpg"
+  },
+  {
+    "Id": "8d16fde2-e5e2-4bd3-b10c-4bfb49731b06",
+    "FirstName": "Jadranka",
+    "LastName": "Popadić",
+    "Birthday": "1969-12-28T00:00:00",
+    "ImagePath": null
+  },
+  {
+    "Id": "d3a07dce-b27a-41a0-b593-f95a76e139cf",
+    "FirstName": "Jelena",
+    "LastName": "Šuvakov",
+    "Birthday": "1993-12-11T00:00:00",
+    "ImagePath": null
+  }
+]

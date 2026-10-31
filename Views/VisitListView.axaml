@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Dental.Views.VisitListView">
+  <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" Margin="20">
+      <TextBlock Text="Select date:"/>
+      <CalendarDatePicker Name="calendarSchedule" Grid.Row="1"/>
+
+      <TextBlock Text="Visits:" Grid.Row="2"/>
+      <ListBox Name="listVisits" Grid.Row="3"/>
+
+      <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center"
+                  Orientation="Horizontal"
+                  Grid.Row="4">
+            <Button Name="btnAdd" Content="Add"/>
+            <Button Name="btnEdit" Content="Edit"/>
+            <Button Name="btnDelete" Content="Delete"/>
+      </StackPanel>
+  </Grid>
+</UserControl>

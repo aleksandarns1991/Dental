@@ -1,0 +1,59 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.AvaloniaUseCompiledBindingsByDefault = true
+build_property.AvaloniaMainPackageVersion = 12.1.2
+build_property.AvaloniaPreviewerNetCoreToolPath = C:\Users\Administrator\.nuget\packages\avalonia\12.1.2\buildTransitive\\..\tools\net8.0\designer\Avalonia.Designer.HostApp.dll
+build_property.AvaloniaResourcePaths = C:\Users\Administrator\source\repos\Dental\Assets\Icons\appointment.ico,C:\Users\Administrator\source\repos\Dental\Assets\Icons\dental.ico,C:\Users\Administrator\source\repos\Dental\Assets\Icons\doctor.ico,C:\Users\Administrator\source\repos\Dental\Assets\Icons\intervention.ico,C:\Users\Administrator\source\repos\Dental\Assets\Icons\patient.ico,C:\Users\Administrator\source\repos\Dental\Assets\Images\doctor.png,C:\Users\Administrator\source\repos\Dental\Assets\Images\patient.png,C:\Users\Administrator\source\repos\Dental\App.axaml,C:\Users\Administrator\source\repos\Dental\Styles1.axaml,C:\Users\Administrator\source\repos\Dental\Views\DoctorListView.axaml,C:\Users\Administrator\source\repos\Dental\Views\DoctorWindow.axaml,C:\Users\Administrator\source\repos\Dental\Views\InterventionListView.axaml,C:\Users\Administrator\source\repos\Dental\Views\InterventionWindow.axaml,C:\Users\Administrator\source\repos\Dental\Views\MainWindow.axaml,C:\Users\Administrator\source\repos\Dental\Views\PatientListView.axaml,C:\Users\Administrator\source\repos\Dental\Views\PatientWindow.axaml,C:\Users\Administrator\source\repos\Dental\Views\VisitListView.axaml,C:\Users\Administrator\source\repos\Dental\Views\VisitWindow.axaml
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Dental
+build_property.ProjectDir = C:\Users\Administrator\source\repos\Dental\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Administrator/source/repos/Dental/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Styles1.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/DoctorListView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/DoctorWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/InterventionListView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/InterventionWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/PatientListView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/PatientWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/VisitListView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Administrator/source/repos/Dental/Views/VisitWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

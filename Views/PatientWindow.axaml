@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Dental.Views.PatientWindow"
+        WindowStartupLocation="CenterScreen"
+        CanResize="false"
+        SizeToContent="WidthAndHeight"
+        Title="Patient"
+        Icon="/Assets/Icons/patient.ico">
+  <Grid RowDefinitions="Auto,Auto,Auto,Auto,20,Auto" ColumnDefinitions="Auto,Auto,Auto" Margin="20">
+    <TextBlock Text="First name:"/>
+    <TextBox Name="textFirstName" Grid.Column="1"/>
+    
+    <TextBlock Text="Last name:" Grid.Row="1"/>
+    <TextBox Name="textLastName" Grid.Row="1" Grid.Column="1"/>
+
+    <TextBlock Text="Birth date:" Grid.Row="2"/>
+    <CalendarDatePicker Name="calendarBirth" Grid.Row="2" Grid.Column="1"/>
+
+    <Border Classes="border" Grid.Column="2" Grid.RowSpan="3">
+        <Image Name="imagePhoto" Stretch="Fill"/>
+    </Border>
+
+    <Button Classes="browse" Name="btnBrowse" Content="..." Grid.Row="3" Grid.Column="2"/> 
+
+    <Button Classes="save" Name="btnSave" Content="Save" Grid.Row="5" Grid.ColumnSpan="3"/>
+  </Grid>
+</Window>

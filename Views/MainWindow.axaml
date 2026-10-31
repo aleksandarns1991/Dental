@@ -1,0 +1,20 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Dental.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="Dental.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Icon="/Assets/Icons/dental.ico"
+        CanResize="false"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        Title="Dental">
+    <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,Auto">
+        <ContentControl Name="contentDoctors" Margin="5"/>
+        <ContentControl Name="contentPatients" Grid.Row="1" Margin="5"/>
+        <ContentControl Name="contentVisits" Grid.Column="1" Margin="5"/>
+        <ContentControl Name="contentInterventions" Grid.Row="1" Grid.Column="1" Margin="5"/>
+    </Grid>
+</Window>
